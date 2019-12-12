@@ -14,17 +14,9 @@
 * 自动清理命令
 ```
   docker system prune
-```
-
-```
-docker system prune后可以加额外的参数，如：
-docker system prune -a ： 一并清除所有未被使用的镜像和悬空镜像。
-docker system prune -f ： 用以强制删除，不提示信息。
-
-
-```
-
-```
+  docker system prune后可以加额外的参数，如：
+  docker system prune -a ： 一并清除所有未被使用的镜像和悬空镜像。
+  docker system prune -f ： 用以强制删除，不提示信息。
   docker image prune：删除悬空的镜像。
 
   docker container prune：删除无用的容器。
